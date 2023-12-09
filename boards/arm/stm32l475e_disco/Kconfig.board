@@ -1,0 +1,8 @@
+# STM32L475E Discovery board configuration
+
+# Copyright (c) 2023 Mohammed Billoo
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_STM32L475E_DISCO
+	bool "STM32L475E Discovery Development Board"
+	depends on SOC_STM32L475XX

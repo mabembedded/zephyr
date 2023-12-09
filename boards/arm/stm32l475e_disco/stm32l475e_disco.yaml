@@ -1,0 +1,14 @@
+identifier: stm32l475e_disco
+name: ST STM32L475E Discovery
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 96
+flash: 1024
+supported:
+  - gpio
+  - counter
+vendor: st
